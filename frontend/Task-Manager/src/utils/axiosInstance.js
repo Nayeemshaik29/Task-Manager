@@ -2,7 +2,7 @@ import axios from "axios";
 import { BASE_URL } from "./apiPaths";
 
 const axiosInstance = axios.create({
-  baseURL: BASE_URL,
+  baseURL: "https://task-manager-backend-2dy0.onrender.com",
   timeout: 10000,
   headers: {
     "Content-Type": "application/json",
